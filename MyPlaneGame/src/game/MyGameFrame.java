@@ -17,6 +17,7 @@ public class MyGameFrame extends MyFrame {
 	/**
 	 * 
 	 */
+	int hh=0;
 	private static final long serialVersionUID = 1L;
 	Plane p = new Plane("images/MyPlane.png", Constants.PLANE_X, Constants.PLANE_Y, Constants.PLANE_SIZE,
 			Constants.PLANE_SIZE);
@@ -24,7 +25,8 @@ public class MyGameFrame extends MyFrame {
 	Explode explode;
 	// 实例化敌机集合
 	List<EnemyPlane> ep_list = new ArrayList<EnemyPlane>();
-
+	//成绩
+	Grade grade=new Grade();
 	// 产生敌机
 	public void createEnemyPlane() {
 		// int x = (new Random()).nextInt(550);
@@ -40,6 +42,8 @@ public class MyGameFrame extends MyFrame {
 		BackGround.drawMe(g);
 		/* 绘制我方飞机 */
 		p.draw(g);
+		/* 绘制成绩 */
+		grade.draw(g,hh);
 		/* 绘制敌机 */
 		for (int i = 0; i < ep_list.size(); i++) {
 			EnemyPlane enplane = ep_list.get(i);
