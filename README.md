@@ -157,29 +157,6 @@ Explode 类
 -   getCount()得到爆炸次数。
 -   setCount()设置爆炸次数。
 
-PlayMusic 类
-------------
-1．UML类图
-
-![EnemyBullet 类][1]
-
-
-[1]: https://github.com/xujianhui1995/Game/blob/master/PlayMusic.jpg
-2. 详细分析
-
-(1)	成员变量
-
--  musicFile为File类型对象，用来播放的文件。
--  clip为 AudioClip类型对象，进行播放的对象。
--  fileURI 为URI类型对象，文件的URI路径。
--   fileURL 为URL类型对象，文件的URL路径
-
-(2)	成员方法
-
--   PlayMusic(String music)构造方法，初始化播放的音频文件。
--   play()播放方法，进行音频播放。
--   stop()停止方法，音频停止方法。
--   loop()循环方法，使音频循环播放。
  
 GameBox 类
 -------------
@@ -212,28 +189,6 @@ GameBox 类
 - ENEMYBULLET_HEIGHT int 类型的变量，用来设置子弹的大小。
 - back_music 字符串类型变量，加载背景音乐。
 - bomb_music字符串类型变量，加载子弹爆炸音乐。
-
-DB 类
----------
-
-1．UML类图
-
-![](https://github.com/xujianhui1995/Game/blob/master/DB.jpg)
-
-2. 详细分析
-
-(1)	成员变量
-
-- url为String类型对象，数据库URL路径。用来连接数据库。
-- driver为String类型对象，加载数据库的驱动。
-- conn为Connection类型对象，用来与数据库进行连接。
-- stmt为Statement类型对象，用来操作Sql语句从而操纵数据库。
-
-(2)	成员方法
-
-- DB()构造方法，加载数据库驱动，实现数据库连接。
-- excuteWrite(String name,String score)将数据写入数据库方法。
-- excuteRead()从数据库中读取数据方法。
 
 StartFrame 类
 -----
