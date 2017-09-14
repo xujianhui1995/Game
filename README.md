@@ -93,10 +93,9 @@ Bullet 类
 -------
 1．UML类图
 
-![Bullet类][1]
+![Bullet类](https://github.com/xujianhui1995/Game/blob/master/img/Bullet.jpg)
 
 
-  [1]: https://github.com/xujianhui1995/Game/blob/master/img/Bullet.jpg
 
 2.详细分析
 
