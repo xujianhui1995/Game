@@ -96,7 +96,7 @@ Bullet 类
 ![Bullet类][1]
 
 
-  [1]: https://github.com/xujianhui1995/Game/blob/master/Bullet.jpg
+  [1]: https://github.com/xujianhui1995/Game/blob/master/img/Bullet.jpg
 
 2.详细分析
 
@@ -122,7 +122,7 @@ EnemyBullet 类
 ![EnemyBullet 类][1]
 
 
-  [1]: https://github.com/xujianhui1995/Game/blob/master/EnemyBullet.jpg
+  [1]: https://github.com/xujianhui1995/Game/blob/master/img/EnemyBullet.jpg
 
 2. 详细分析    
     
@@ -147,7 +147,7 @@ Explode 类
 ![Explode 类][1]
 
 
-  [1]: https://github.com/xujianhui1995/Game/blob/master/Explode.jpg
+  [1]: https://github.com/xujianhui1995/Game/blob/master/img/Explode.jpg
  
 2. 详细分析
 
@@ -172,7 +172,7 @@ GameBox 类
 
 1．UML类图
 
-![](https://github.com/xujianhui1995/Game/blob/master/GameBox.jpg)
+![](https://github.com/xujianhui1995/Game/blob/master/img/GameBox.jpg)
 
 2. 详细分析
 
