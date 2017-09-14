@@ -46,7 +46,7 @@ Windos系统，JDK1.8，jre7E，eclipse。
 
 3.1 游戏界面截图
 ---------------
-## 游戏开始界面：
+### 游戏开始界面：
 
 ![界面截图](https://github.com/xujianhui1995/Game/blob/master/img/start.png)
 
