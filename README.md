@@ -46,18 +46,18 @@ Windos系统，JDK1.8，jre7E，eclipse。
 
 3.1 游戏界面截图
 ---------------
-##游戏开始界面：
+## 游戏开始界面：
 
 ![界面截图](https://github.com/xujianhui1995/Game/blob/master/img/start.png)
 
-##鼠标单击屏幕开始游戏：
+## 鼠标单击屏幕开始游戏：
  
 ![开始界面截图](https://github.com/xujianhui1995/Game/blob/master/img/game.png)
 
-##鼠标移动控制我方战机，消灭敌机来获得更高得分。蜜蜂可以增加我方战机的生命值。右上角为玩家得分。
-##移动我方战机到边界线，游戏暂停
+## 鼠标移动控制我方战机，消灭敌机来获得更高得分。蜜蜂可以增加我方战机的生命值。右上角为玩家得分。
+## 移动我方战机到边界线，游戏暂停
 
-![暂停界面截图]()
+![暂停界面截图](https://github.com/xujianhui1995/Game/blob/master/img/pause.png)
 
 3.2类的详细设计
 --------------
